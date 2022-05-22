@@ -27,7 +27,7 @@
 	interrupt-parent = <&intc>;
 
 	chosen {
-		bootargs = "fpsimd.fpsimd_settings=1 app_setting.use_app_setting=1 app_setting.use_32bit_app_setting=1 kpti=1";
+		bootargs = "fpsimd.fpsimd_settings=1 app_setting.use_app_setting=1 app_setting.use_32bit_app_setting=1 random.trust_cpu=on";
 	};
 
 	aliases {
